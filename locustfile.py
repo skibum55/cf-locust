@@ -7,7 +7,7 @@ def index(l):
     l.client.get("/")
 
 def profile(l):
-    l.client.get("/profile")
+    l.client.get("/bio")
 
 class UserBehavior(TaskSet):
     tasks = {index:2, profile:1}
