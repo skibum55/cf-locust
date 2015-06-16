@@ -1,2 +1,2 @@
-web: locust -P $VCAP_APP_PORT --host=http://www.cfapps.pez.pivotal.io
+web: locust -P $PORT --host=http://www.cfapps.pez.pivotal.io
 
