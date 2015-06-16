@@ -5,3 +5,5 @@ This is a cloud foundry pushable [locust.io](http://locust.io/) instance with an
 Todo:
 
 Make it master slave enabled.
+
+Verify it works with Heroku.
