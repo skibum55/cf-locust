@@ -7,3 +7,5 @@ Todo:
 Make it master slave enabled.
 
 Verify it works with Heroku.
+
+Usage documents.
