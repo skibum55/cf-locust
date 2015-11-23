@@ -13,8 +13,8 @@ class UserBehavior(TaskSet):
     tasks = {index:2, profile:1}
 
     def on_start(self):
+        self.client.verify = False
         login(self)
-    self.client.verify = False
 
 class WebsiteUser(HttpLocust):
     task_set = UserBehavior
