@@ -1,1 +1,1 @@
-web: locust -P $PORT --host=$HOST --master
+web: locust -P $PORT --host=$HOST --master-host=seanlocust.app.srao.layasinchana.com

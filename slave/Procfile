@@ -1,0 +1,1 @@
+web: locust -P $PORT --host=$HOST --slave --master-port=5557

@@ -1,0 +1,12 @@
+---
+path: .
+memory: 1G
+disk: 1G
+instances: 1
+
+applications:
+- name: seanlocustslave
+  instances: 1
+
+env:
+  HOST: https://seantest.app.srao.layasinchana.com
