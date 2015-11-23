@@ -5,6 +5,7 @@ disk: 1G
 instances: 1
 
 applications:
+- name: seanlocust
   instances: 1
 
 env:
