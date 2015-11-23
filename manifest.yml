@@ -5,8 +5,7 @@ disk: 1G
 instances: 1
 
 applications:
-- name: seanlocust
   instances: 1
 
 env:
-  HOST=https://seantest.app.srao.layasinchana.com
+  HOST: https://seantest.app.srao.layasinchana.com
