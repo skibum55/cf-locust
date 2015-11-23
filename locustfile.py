@@ -14,6 +14,7 @@ class UserBehavior(TaskSet):
 
     def on_start(self):
         login(self)
+    self.client.verify = False
 
 class WebsiteUser(HttpLocust):
     task_set = UserBehavior
